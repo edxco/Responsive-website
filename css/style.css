@@ -192,7 +192,7 @@ h4 {
   background-size: 100% 100px;
   float: right;
 }
-
+/* comment delete */
 @media (max-width: 767px) {
     .navbar-logo {
 

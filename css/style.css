@@ -10,12 +10,28 @@ html {
     /* font-family:Shentox,sans-serif;  Font for main menu */
 }
 
+ul {
+  list-style: none;
+}
+
+li::before {
+  content: "•";
+  color: red;
+  margin: 0 10px;
+}
+
 .m-l150 {
   padding-left: 120px;
 }
 
 .m-l100 {
   padding-left: 100px;
+}
+
+.p-l20,
+.img-4-text,
+.img-4-box-text {
+  padding-left: 20px;
 }
 
 .columns {
@@ -45,7 +61,9 @@ html {
 }
 
 .white,
-.type-card p {
+.type-card p,
+.img-4-text p,
+.img-4-text h3 {
     color: #fff;
 }
 
@@ -62,10 +80,6 @@ html {
     font-weight: 700;
 }
 
-h4 {
-    font-size: 160px;
-}
-
 /* Header */
 .navbar-logo {
     height: 49px;
@@ -74,8 +88,6 @@ h4 {
 .navbar-logo img {
     height: 49px;
 }
-
-
 /* First row of pictures */
 .img1 {
   position: relative;
@@ -88,6 +100,7 @@ h4 {
         url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/Untitled-design-2020-08-28T133741.714-796x417.png );
   width: 100%;
   padding-left: 15px;
+  margin-bottom: 10px;
 }
 
 .img1 h4 {
@@ -143,7 +156,8 @@ h4 {
 }
 
 .card-1 {
-  margin: 10px
+  margin: 10px;
+  background-color: rgba(255,68,34,.07);
 }
 
 .money {
@@ -177,11 +191,16 @@ h4 {
 }
 
 .img-4-text {
-  margin-top: 350px;
+  padding-top: 350px;
 }
 
 .img-4-box-text {
   height: 100px;
+  background-color: rgba(255,68,34,.07);
+}
+
+.img-4-box-text p {
+  margin: 0;
 }
 
 .img-4-1 {
@@ -192,7 +211,27 @@ h4 {
   background-size: 100% 100px;
   float: right;
 }
+
+.eduardo-text {
+  position: absolute;
+  bottom: 0;
+}
+
+.card-text {
+  border-top: 1px solid gray;
+  padding-bottom: 20px;
+}
 /* comment delete */
+
+.sec-3 li {
+  border-bottom: 1px solid gray;
+  margin-bottom: 15px;
+}
+
+.sec-3 ul {
+  padding-left: 0;
+}
+
 @media (max-width: 767px) {
     .navbar-logo {
 

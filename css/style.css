@@ -1,4 +1,6 @@
 @import url("normalize.css");
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+
 
 /* Global */
 * {
@@ -6,6 +8,9 @@
 }
 html {
     color: #000;
+    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+    /* font-family: Avalon, sans-serif; Font for bold titles */
+    /* font-family:Shentox,sans-serif;  Font for main menu */
 }
 
 .m-l150 {
@@ -36,6 +41,10 @@ html {
     color: #9a9897;
 }
 
+.grey3 {
+    color:#252007
+}
+
 .white {
     color: #fff;
 }
@@ -46,7 +55,7 @@ html {
 
 /* Header */
 .navbar-logo {
-
+    height: 49px;
 }
 
 .navbar-logo img {
@@ -131,19 +140,28 @@ html {
     .navbar-logo {}
 
     .right-nav {
-        height: 25px;
+        width: 100px;
     }
 
     .search-bar {
         border-left: 1px solid #bdbdbc;
         border-right: 1px solid #bdbdbc;
-        padding: 5px 10px 0 10px;
-        width: 20px;
+        padding: 17px 15px 0 15px;
+        width: 49px;
     }
 
     .menu-img {
-        padding: 5px 10px 0 10px;
-        width: 20px;
+        padding: 17px 15px 0 15px;
+        width: 49px;
+    }
+    .yellow-bar{
+        font-size: 13px;
+        background-color: #ffdd34;
+        height: 60px;
+    }
+
+    .yellow-bar span {
+        margin: 0 auto;
     }
 
     .img1 {

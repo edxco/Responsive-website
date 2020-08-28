@@ -66,11 +66,12 @@ html {
 
 /* First row of pictures */
 .img1 {
+  position: relative;
   font-family: Avalon, sans-serif;
   background:
-  linear-gradient(0deg, 
-  rgba(0,0,0,1) 0%, 
-  rgba(0,0,0,1) 2%, 
+  linear-gradient(0deg,
+  rgba(0,0,0,1) 0%,
+  rgba(0,0,0,1) 2%,
   rgba(0,0,0,0.2) 100%),
         url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/Untitled-design-2020-08-28T133741.714-796x417.png );
   width: 100%;
@@ -78,7 +79,6 @@ html {
 }
 
 .img1 h4 {
-    padding-top: 200px;
     margin-bottom: 0;
     font-size: 20px;
 }
@@ -87,6 +87,13 @@ html {
     font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
     font-size: 12px;
     margin: 6px 0 0 0;
+}
+
+.eduardo-text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0;
 }
 
 .img2 {

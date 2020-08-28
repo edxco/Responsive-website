@@ -8,6 +8,8 @@ html {
     font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
     /* font-family: Avalon, sans-serif; Font for bold titles */
     /* font-family:Shentox,sans-serif;  Font for main menu */
+    padding: 9px;
+    margin: 12px;
 }
 
 .m-l150 {

@@ -78,11 +78,12 @@ h4 {
 
 /* First row of pictures */
 .img1 {
+  position: relative;
   font-family: Avalon, sans-serif;
   background:
-  linear-gradient(0deg, 
-  rgba(0,0,0,1) 0%, 
-  rgba(0,0,0,1) 2%, 
+  linear-gradient(0deg,
+  rgba(0,0,0,1) 0%,
+  rgba(0,0,0,1) 2%,
   rgba(0,0,0,0.2) 100%),
         url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/Untitled-design-2020-08-28T133741.714-796x417.png );
   width: 100%;
@@ -90,7 +91,6 @@ h4 {
 }
 
 .img1 h4 {
-    padding-top: 200px;
     margin-bottom: 0;
     font-size: 20px;
 }

@@ -3,12 +3,9 @@
 
 
 /* Global */
-* {
-  border: 1px solid red;
-}
 html {
     color: #000;
-    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
     /* font-family: Avalon, sans-serif; Font for bold titles */
     /* font-family:Shentox,sans-serif;  Font for main menu */
 }
@@ -53,6 +50,10 @@ html {
     color: #e9482f;
 }
 
+.bold-400 {
+    font-weight: 400;
+}
+
 /* Header */
 .navbar-logo {
     height: 49px;
@@ -62,28 +63,35 @@ html {
     height: 49px;
 }
 
-.sec-1 h4 {
-  position: absolute;
-  color: white;
-  margin-top: 25%;
-  font-size: 30px;
-}
 
+/* First row of pictures */
 .img1 {
+  font-family: Avalon, sans-serif;
   background:
-        linear-gradient(
-          rgba(0, 0, 0, 0.5),
-          rgba(0, 0, 0, 0.5)
-        ),
+  linear-gradient(0deg, 
+  rgba(0,0,0,1) 0%, 
+  rgba(0,0,0,1) 2%, 
+  rgba(0,0,0,0.2) 100%),
         url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/Untitled-design-2020-08-28T133741.714-796x417.png );
   width: 100%;
-  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+.img1 h4 {
+    padding-top: 200px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.img1 p {
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+    font-size: 12px;
+    margin: 6px 0 0 0;
 }
 
 .img2 {
   height: 80px;
   width: 80px;
-  margin-top: 10px;
   float: left;
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/julian-santa-ana-rBLLTkPRRtE-unsplash-540x270.jpg);
 }
@@ -155,13 +163,13 @@ html {
         width: 49px;
     }
     .yellow-bar{
+        cursor: pointer;
+        padding: 10px 0 0 0;
+        text-align: center;
         font-size: 13px;
         background-color: #ffdd34;
-        height: 60px;
-    }
-
-    .yellow-bar span {
-        margin: 0 auto;
+        height: 50px;
+        width: 100%;
     }
 
     .img1 {

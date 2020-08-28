@@ -129,7 +129,7 @@ h4 {
 }
 
 .type-card {
-    background-color: #FF4422;
+    background-color: #ff4422;
     height: 45px;
 }
 
@@ -192,7 +192,7 @@ h4 {
   background-size: 100% 100px;
   float: right;
 }
-
+/* comment delete */
 @media (max-width: 767px) {
     .navbar-logo {
 

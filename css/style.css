@@ -11,7 +11,7 @@ html {
 }
 
 .m-l150 {
-  padding-left: 150px;
+  padding-left: 120px;
 }
 
 .m-l100 {
@@ -30,11 +30,13 @@ html {
     justify-content: space-between;
 }
 
-.grey1 {
+.grey1,
+.text_img2 p {
     color: #bdbdbc;
 }
 
-.grey2 {
+.grey2,
+.money p {
     color: #9a9897;
 }
 
@@ -42,16 +44,26 @@ html {
     color:#252007
 }
 
-.white {
+.white,
+.type-card p {
     color: #fff;
 }
 
 .orange {
-    color: #e9482f;
+    color: #FF4422;
 }
 
 .bold-400 {
     font-weight: 400;
+}
+
+.bold-700,
+.type-card p {
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 160px;
 }
 
 /* Header */
@@ -89,16 +101,41 @@ html {
     margin: 6px 0 0 0;
 }
 
+.sec-2 {
+    font-family: Avalon, sans-serif;
+    margin-left: 20px;
+}
+
+.text_img2 {
+    height: 100px;
+    padding-left: 20px;
+}
+
+.text_img2 h4 {
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.text_img2 p {
+    font-size: 10px;
+}
+
 .img2 {
   height: 80px;
   width: 80px;
   float: left;
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/julian-santa-ana-rBLLTkPRRtE-unsplash-540x270.jpg);
+  background-size: 120px 80px;
 }
 
-.text_img2 h4 {
-  font-size: 20px;
-  margin: 0;
+.type-card {
+    background-color: #FF4422;
+    height: 45px;
+}
+
+.type-card p {
+    font-size: 20px;
+    padding-top: 14px;
 }
 
 .text-img-5 h4 {
@@ -108,6 +145,18 @@ html {
 .card-1 {
   margin: 10px
 }
+
+.money {
+    background-color: #ffebe8;
+}
+
+.money h2,
+.money p {
+    font-family:Shentox,sans-serif;
+    margin: 0;
+    padding: 5px 0;
+}
+
 
 .img-3 {
   margin: 10px 0 0 20px;
@@ -145,7 +194,9 @@ html {
 }
 
 @media (max-width: 767px) {
-    .navbar-logo {}
+    .navbar-logo {
+
+    }
 
     .right-nav {
         width: 100px;

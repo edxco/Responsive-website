@@ -11,31 +11,31 @@ html {
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 li::before {
-  content: "•";
-  color: red;
-  margin: 0 10px;
+    content: "•";
+    color: red;
+    margin: 0 10px;
 }
 
 .m-l150 {
-  padding-left: 120px;
+    padding-left: 120px;
 }
 
 .m-l100 {
-  padding-left: 100px;
+    padding-left: 100px;
 }
 
 .p-l20,
 .img-4-text,
 .img-4-box-text {
-  padding-left: 20px;
+    padding-left: 20px;
 }
 
 .columns {
-  flex-direction: column;
+    flex-direction: column;
 }
 
 .d-flex {
@@ -46,41 +46,26 @@ li::before {
     justify-content: space-between;
 }
 
-.grey1,
-.text_img2 p {
-    color: #bdbdbc;
+/* Margin sides */
+.m-10s {
+    margin: 0 10px;
 }
 
-.grey2,
-.money p {
-    color: #9a9897;
-}
-
-.grey3 {
-    color:#252007
-}
-
-.white,
-.type-card p,
-.img-4-text p,
-.img-4-text h3 {
-    color: #fff;
-}
-
-.orange {
-    color: #FF4422;
-}
-
-.bold-400 {
-    font-weight: 400;
-}
-
-.bold-700,
-.type-card p {
-    font-weight: 700;
+.m-20s {
+    margin: 0 20px;
 }
 
 /* Header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+nav {
+    background-color: #fff;
+}
+
 .navbar-logo {
     height: 49px;
 }
@@ -88,57 +73,66 @@ li::before {
 .navbar-logo img {
     height: 49px;
 }
-/* First row of pictures */
+
+/* Body
+   First row of pictures */
 .img1 {
-  position: relative;
-  font-family: Avalon, sans-serif;
-  background:
-  linear-gradient(0deg,
-  rgba(0,0,0,1) 0%,
-  rgba(0,0,0,1) 2%,
-  rgba(0,0,0,0.2) 100%),
-        url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/Untitled-design-2020-08-28T133741.714-796x417.png );
-  width: 100%;
-  padding-left: 15px;
-  margin-bottom: 10px;
+    position: relative;
+    font-family: Avalon, sans-serif;
+    background:
+        linear-gradient(0deg,
+            rgba(0, 0, 0, 1) 0%,
+            rgba(0, 0, 0, 1) 3%,
+            rgba(0, 0, 0, 0.2) 100%);
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.img1 img {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    z-index: -1;
+    width: 100%;
 }
 
 .img1 h4 {
-    margin-bottom: 0;
+    margin: 0 20px;
     font-size: 20px;
 }
 
 .img1 p {
     font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
     font-size: 12px;
-    margin: 6px 0 0 0;
-}
-
-.sec-2 {
-    font-family: Avalon, sans-serif;
-    margin-left: 20px;
+    margin: 6px 0 0 20px;
 }
 
 .text_img2 {
     height: 100px;
-    padding-left: 20px;
+    padding-left: 12px;
 }
 
 .text_img2 h4 {
     font-size: 14px;
-    margin-top: 0;
+    margin: 0;
 }
 
 .text_img2 p {
-    font-size: 10px;
+    font-family: Graphik;
+    font-size: 12px;
 }
 
 .img2 {
-  height: 80px;
-  width: 80px;
-  float: left;
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/julian-santa-ana-rBLLTkPRRtE-unsplash-540x270.jpg);
-  background-size: 120px 80px;
+    height: 74px;
+    width: 74px;
+    float: left;
+    cursor: pointer;
+}
+
+.img2 img {
+    width: 74px;
+    height: 100%;
+    object-fit: cover;
 }
 
 .type-card {
@@ -152,90 +146,95 @@ li::before {
 }
 
 .text-img-5 h4 {
-  margin: 0;
+    margin: 0;
 }
 
 .card-1 {
-  margin: 10px;
-  background-color: rgba(255,68,34,.07);
+    background-color: rgba(255, 68, 34, .07);
 }
 
 .money {
     background-color: #ffebe8;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.money h2,
-.money p {
-    font-family:Shentox,sans-serif;
+.money h2 {
+    font-size: 18px;
+    padding: 0;
     margin: 0;
-    padding: 5px 0;
+}
+
+.money p {
+    font-size: 11px;
+    margin: 0;
+    padding: 5px 0 0 0;
 }
 
 
 .img-3 {
-  margin: 10px 0 0 20px;
-  position: absolute;
-  background-image: url(https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1217803075978702848%2FIcA03RWQ.jpg&signature=76a55ce37ba360655a056fe2ca1bc8b0);
-  width: 80px;
-  height: 80px;
-  background-repeat: no-repeat;
-  background-size: 80px 80px;
+    margin: 10px 0 0 20px;
+    position: absolute;
+    background-image: url(https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1217803075978702848%2FIcA03RWQ.jpg&signature=76a55ce37ba360655a056fe2ca1bc8b0);
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
 }
 
 .img-4 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg);
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 500px;
-  background-size: 100% 500px;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: 100% 500px;
 }
 
 .img-4-text {
-  padding-top: 350px;
+    padding-top: 350px;
 }
 
 .img-4-box-text {
-  height: 100px;
-  background-color: rgba(255,68,34,.07);
+    height: 100px;
+    background-color: rgba(255, 68, 34, .07);
 }
 
 .img-4-box-text p {
-  margin: 0;
+    margin: 0;
 }
 
 .img-4-1 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg);
-  background-repeat: no-repeat;
-  width: 20%;
-  height: 100px;
-  background-size: 100% 100px;
-  float: right;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg);
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 100px;
+    background-size: 100% 100px;
+    float: right;
 }
 
 .eduardo-text {
-  position: absolute;
-  bottom: 0;
+    position: absolute;
+    bottom: 25px;
 }
 
 .card-text {
-  border-top: 1px solid gray;
-  padding-bottom: 20px;
+    border-top: 1px solid gray;
+    padding-bottom: 20px;
 }
+
 /* comment delete */
 
 .sec-3 li {
-  border-bottom: 1px solid gray;
-  margin-bottom: 15px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 15px;
 }
 
 .sec-3 ul {
-  padding-left: 0;
+    padding-left: 0;
 }
 
 @media (max-width: 767px) {
-    .navbar-logo {
-
-    }
+    .navbar-logo {}
 
     .right-nav {
         width: 100px;
@@ -252,7 +251,8 @@ li::before {
         padding: 17px 15px 0 15px;
         width: 49px;
     }
-    .yellow-bar{
+
+    .yellow-bar {
         cursor: pointer;
         padding: 10px 0 0 0;
         text-align: center;
@@ -263,7 +263,78 @@ li::before {
     }
 
     .img1 {
-      height: 30vh;
-      opacity: 1;
+        height: 28vh;
+        opacity: 1;
     }
+}
+
+/* Text style */
+h2 {
+    font-family: Avalon, sans-serif;
+    padding-top: 40px;
+    font-size: 28px;
+}
+
+.money h2 {
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+.money p {
+    font-family: Shentox;
+}
+
+.white,
+.type-card p,
+.img-4-text p,
+.img-4-text h3 {
+    color: #fff;
+}
+
+.orange,
+.text_img2 h4 a:hover,
+h2 a {
+    color: #FF4422;
+}
+
+.bold-400 {
+    font-weight: 400;
+}
+
+.bold-700,
+.type-card p {
+    font-weight: 700;
+}
+
+.grey1 {
+    color: #bdbdbc;
+}
+
+.grey2,
+.money p,
+.text_img2 p a,
+.text_img2 p {
+    color: #9a9897;
+}
+
+.grey3,
+a:hover,
+.money h2,
+.text_img2 h4 a,
+.text_img2 p a:hover {
+    color: #252007
+}
+
+.fs-12 {
+    font-size: 14px;
+}
+
+/* Hperlinks style */
+a {
+    text-decoration: none;
+}
+
+/* Hyperlink style Latest News section */
+
+.text_img2 h4 a:hover {
+    text-decoration: underline;
 }

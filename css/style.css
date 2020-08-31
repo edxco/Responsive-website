@@ -246,6 +246,7 @@ nav {
 
 .right-nav {
     width: 100px;
+    height: 49px;
 }
 
 .search-bar {
@@ -301,7 +302,14 @@ nav {
         display: none;
     }
 
+    .right-nav {
+        width: 49px;
+    }
     
+    .search-bar {
+        width: 49px;
+        border-right: 0;
+    }
 
     .nav-767 {
       display: flex;
@@ -328,6 +336,14 @@ nav {
 
     .white-nav li {
       margin-right: 20px;
+    }
+
+    .medium {
+        display: flex;
+    }
+
+    .onehundred-h {
+        height: 440px;
     }
 
 }

@@ -442,21 +442,46 @@ nav {
 
     .right-nav {
         display: flex;
-        width: 500px;
+        justify-content: flex-end;
+        width: 400px;
         height: 49px;
     }
 
+    .search-bar {
+        width: 19px;
+        border-right: 0;
+    }
+
     .tnw-event-logo {
+        display: inline;
         width: 100px;
-        background-color: orangered;
+        padding: 6px 0 0 0; 
     }
 
     .countdown {
-        width: 100px;
+        display: inline;
+        text-align: center;
+        width: 150px;
+        font-size: 22px;
+        padding: 14px 0 0 0;
     }
 
     .button {
+        display: inline;
+        text-align: center;
         width: 100px;
+        padding: 12px 0 0 0;
+    }
+
+    #get-tickets {
+        border-radius: 4px;
+  background-color: #00CCCC;
+  border: 0;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 11px;
+  cursor: pointer;
+  height: 28px;
     }
 
     .top-central-p ul {
@@ -508,8 +533,10 @@ html .text_img2,
 }
 
 .money p,
+.countdown,
 .white-nav
-,.text-sq {
+,.text-sq,
+#get-tickets {
     font-family: Shentox;
 }
 

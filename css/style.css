@@ -7,16 +7,6 @@ html {
     /* font-family:Shentox,sans-serif;  Font for main menu */
 }
 
-.m-l90 {
-    padding-left: 90px;
-}
-
-.p-l20,
-.img-4-text,
-.img-4-box-text {
-    padding-left: 20px;
-}
-
 .columns {
     flex-direction: column;
 }
@@ -44,6 +34,16 @@ html {
 
 .p-20t {
     padding-top: 20px;
+}
+
+.m-l90 {
+    padding-left: 90px;
+}
+
+.p-l20,
+.img-4-text,
+.img-4-box-text {
+    padding-left: 20px;
 }
 
 /* Header */
@@ -262,7 +262,7 @@ nav {
 }
 
 .img-a {
-    height: 27vh;
+    /* height: 27vh; */
     opacity: 1;
 }
 
@@ -342,8 +342,12 @@ nav {
         display: flex;
     }
 
-    .onehundred-h {
-        height: 440px;
+    .half {
+        width: 70%;
+    }
+
+    .p-responsive {
+        margin-right: 10px;
     }
 
 }

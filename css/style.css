@@ -546,3 +546,27 @@ a {
 .text_img2 h4 a:hover {
     text-decoration: underline;
 }
+
+/* Footer icons */
+.social a {
+    display: inline-block;
+    background: #eee;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 2px 2px 2px 2px;
+    margin: 0 3px;
+    font-size: 0.7em;
+  color: #444;
+  }
+  
+  .social a:hover {
+  background: #fff;
+    border: 1px solid #aaa;
+  
+  }
+  
+  .social {
+  text-align: right;
+  }

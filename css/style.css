@@ -346,6 +346,16 @@ nav {
         width: 70%;
     }
 
+    .two-col {
+        width: 50%;
+        margin: 0 9px 0 0;
+    }
+
+    .two-col2 {
+        width: 50%;
+        margin: 0 0 0 9px;
+    }
+
     .p-responsive {
         margin-right: 10px;
     }

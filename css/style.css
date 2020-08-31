@@ -316,8 +316,8 @@ nav {
       justify-content: space-between;
     }
 
-    .top-central-p {
-      padding-left: 180px;
+    .top-central-p ul {
+      padding-left: 190px;
     }
 
     .navbar-logo {
@@ -414,6 +414,29 @@ nav {
       width: 50px;
       margin-top: 38px;
     }
+
+    .right-ul-links ul {
+      padding-left: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .navbar-logo {
+      display: none;
+    }
+
+    .top-central-p ul {
+      padding-left: 10px;
+    }
+
+    .logo {
+      background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg);
+      background-repeat: no-repeat;
+      background-size: 300px 72px;
+      background: linear-gradient(163deg, rgba(166,21,21,0.8379726890756303) 41%, rgba(96,11,11,0.8911939775910365) 48%, rgba(0,0,0,0.8407738095238095) 59%);
+    }
+
+
 }
 /* Text style */
 h2 {

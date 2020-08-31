@@ -362,12 +362,12 @@ nav {
     }
 
     .two-col {
+        flex: 40%;
         width: 50%;
         margin: 0 9px 0 0;
     }
 
     .two-col2 {
-        width: 50%;
         margin: 0 0 0 9px;
     }
 
@@ -383,11 +383,17 @@ nav {
       display: flex;
       flex-direction: column;
       margin-right: 10px;
-      width: 33.333%;
+      min-width: 20.333%;
+      flex: 30%;
     }
 
     .lastes_news:last-child {
       margin-right: 0;
+    }
+
+    .flex-box {
+      display: flex;
+      flex-wrap: wrap;
     }
 
     .img2 {
@@ -433,6 +439,13 @@ nav {
     .right-ul-links ul {
       padding-left: 0;
     }
+
+    .sec-3 {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+
 }
 
 @media (min-width: 1024px) {
@@ -455,7 +468,7 @@ nav {
     .tnw-event-logo {
         display: inline;
         width: 100px;
-        padding: 6px 0 0 0; 
+        padding: 6px 0 0 0;
     }
 
     .countdown {
@@ -497,6 +510,18 @@ nav {
       display: flex;
       position: absolute;
       z-index: 1;
+    }
+
+    .lastes_news {
+      display: flex;
+      flex-direction: column;
+      margin-right: 10px;
+      min-width: 20.333%;
+      flex: 10%;
+    }
+
+    .two-col {
+        flex: 30%;
     }
 
 }

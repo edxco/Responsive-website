@@ -270,11 +270,11 @@ nav {
 }
 
 .white-nav {
-  display: none;
+    display: none;
 }
 
 .true-logo {
-  display: none;
+    display: none;
 }
 
 .tnw-event-logo {
@@ -291,7 +291,7 @@ nav {
 
 @media (min-width: 767px) {
     header nav {
-      flex-direction: column;
+        flex-direction: column;
     }
 
     .top-central-wrap {
@@ -327,30 +327,30 @@ nav {
     }
 
     .nav-767 {
-      display: flex;
-      justify-content: space-between;
+        display: flex;
+        justify-content: space-between;
     }
 
     .top-central-p ul {
-      padding-left: 190px;
+        padding-left: 190px;
     }
 
     .navbar-logo {
-      position: absolute;
+        position: absolute;
     }
 
     .navbar-logo img {
-      width: *;
-      height: 82px;
+        width: *;
+        height: 82px;
     }
 
     .white-nav {
-      display: flex;
-      list-style-type: none;
+        display: flex;
+        list-style-type: none;
     }
 
     .white-nav li {
-      margin-right: 20px;
+        margin-right: 20px;
     }
 
     .medium {
@@ -376,73 +376,73 @@ nav {
     }
 
     .new-3 {
-      display: flex;
+        display: flex;
     }
 
     .lastes_news {
-      display: flex;
-      flex-direction: column;
-      margin-right: 10px;
-      min-width: 20.333%;
-      flex: 30%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+        min-width: 20.333%;
+        flex: 30%;
     }
 
     .lastes_news:last-child {
-      margin-right: 0;
+        margin-right: 0;
     }
 
     .flex-box {
-      display: flex;
-      flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .img2 {
-      width: 100%;
-      height: 200px;
+        width: 100%;
+        height: 200px;
     }
 
     .img2 img {
-      width: 100%;
+        width: 100%;
     }
 
     .text_img2 {
-      padding: 0;
+        padding: 0;
     }
 
     .flex-767 {
-      display: flex;
+        display: flex;
     }
 
     .sec-5 h2 {
-      margin: 0;
+        margin: 0;
     }
 
     .mr-767 p {
-      margin: 0 20px 0 0;
+        margin: 0 20px 0 0;
     }
 
     .card-1 {
-      margin-right: 10px;
-      width: 33.333%;
+        margin-right: 10px;
+        width: 33.333%;
     }
 
     .card-1:last-child {
-      margin-right: 0;
+        margin-right: 0;
     }
 
     .img-3 {
-      height: 50px;
-      width: 50px;
-      margin-top: 38px;
+        height: 50px;
+        width: 50px;
+        margin-top: 38px;
     }
 
     .right-ul-links ul {
-      padding-left: 0;
+        padding-left: 0;
     }
 
     .sec-3 {
-      display: flex;
-      flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
     }
 
 
@@ -450,7 +450,7 @@ nav {
 
 @media (min-width: 1024px) {
     .navbar-logo {
-      display: none;
+        display: none;
     }
 
     .right-nav {
@@ -488,36 +488,36 @@ nav {
 
     #get-tickets {
         border-radius: 4px;
-  background-color: #00CCCC;
-  border: 0;
-  padding: 0 10px;
-  color: #fff;
-  font-size: 11px;
-  cursor: pointer;
-  height: 28px;
+        background-color: #00CCCC;
+        border: 0;
+        padding: 0 10px;
+        color: #fff;
+        font-size: 11px;
+        cursor: pointer;
+        height: 28px;
     }
 
     .top-central-p ul {
-      padding-left: 10px;
+        padding-left: 10px;
     }
 
     .logo {
-      background-size: 300px 72px;
-      background: linear-gradient(163deg, rgba(166,21,21,0.8379726890756303) 41%, rgba(96,11,11,0.8911939775910365) 48%, rgba(0,0,0,0.8407738095238095) 59%);
+        background-size: 300px 72px;
+        background: linear-gradient(163deg, rgba(166, 21, 21, 0.8379726890756303) 41%, rgba(96, 11, 11, 0.8911939775910365) 48%, rgba(0, 0, 0, 0.8407738095238095) 59%);
     }
 
     .true-logo {
-      display: flex;
-      position: absolute;
-      z-index: 1;
+        display: flex;
+        position: absolute;
+        z-index: 1;
     }
 
     .lastes_news {
-      display: flex;
-      flex-direction: column;
-      margin-right: 10px;
-      min-width: 20.333%;
-      flex: 10%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+        min-width: 20.333%;
+        flex: 10%;
     }
 
     .two-col {
@@ -525,6 +525,7 @@ nav {
     }
 
 }
+
 /* Text style */
 h2 {
     font-family: Avalon, sans-serif;
@@ -559,13 +560,16 @@ html .text_img2,
 
 .money p,
 .countdown,
-.white-nav
-,.text-sq,
+.white-nav,
+.text-sq,
+.footer-links,
 #get-tickets {
     font-family: Shentox;
 }
 
 .white,
+.footer-2,
+.social a,
 .text-sq,
 .type-card p,
 .img-4-text p,
@@ -590,6 +594,8 @@ h2 a {
 
 .grey1,
 .top-central-wrap ul,
+.footer-links,
+.footer-2 ,
 .white-nav {
     color: #bdbdbc;
 }
@@ -637,10 +643,20 @@ a {
 }
 
 /* Footer icons */
-footer {
+.footer-1 {
     width: 100%;
     background-color: #131313;
-    height: 162px;
+    margin: 0;
+}
+
+.footer-2 {
+    width: 100%;
+    background-color: #000;
+    padding: 35px 0 0 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
 }
 
 .social a {
@@ -651,30 +667,35 @@ footer {
     border-radius: 50%;
     text-align: center;
     padding: 0;
-    margin: 0 8px 0 8px;
-    color: #fff;
-  }
+    margin: 35px 8px 0 8px;
+}
 
-  .footer-links {
-      list-style: none;
-      padding: 0;
-      margin: 0 20px;
-      display: flex;
-      justify-content: center;
-  }
+.social i {
+    margin: 12px 0 0 0;
+}
 
-  .social i {
-      margin: 12px 0 0 0;
-  }
-
-  .social a:hover {
+.social a:hover {
     background: #131313;
     border: 1px solid #333;
 
-  }
+}
 
-  .social {
-      display: flex;
-      justify-content: center;
-  text-align: right;
-  }
+.social {
+    display: flex;
+    justify-content: center;
+    text-align: right;
+}
+
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 40px 10px;
+    font-size: 13px;
+}

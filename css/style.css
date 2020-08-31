@@ -157,14 +157,11 @@ nav {
     font-size: 13px;
 }
 
-.img-3 {
+.img-3 img {
     margin: 10px 0 0 10px;
     position: absolute;
-    background-image: url(https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1217803075978702848%2FIcA03RWQ.jpg&signature=76a55ce37ba360655a056fe2ca1bc8b0);
     width: 60px;
     height: 60px;
-    background-repeat: no-repeat;
-    background-size: 80px 80px;
 }
 
 .img-4 {
@@ -228,6 +225,15 @@ nav {
     margin: 0 10px;
 }
 
+.price span {
+  margin-left: 20px;
+  color: black;
+}
+
+.title-2 {
+  align-items: baseline;
+}
+
 @media (max-width: 767px) {
     .navbar-logo {}
 
@@ -270,7 +276,6 @@ nav {
 /* Text style */
 h2 {
     font-family: Avalon, sans-serif;
-    padding-top: 40px;
     font-size: 28px;
 }
 
@@ -367,4 +372,8 @@ a {
 
 .text_img2 h4 a:hover {
     text-decoration: underline;
+}
+
+.aaa {
+  background-color: red;
 }

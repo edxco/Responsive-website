@@ -472,9 +472,9 @@ nav {
     }
 
     .countdown {
-        display: inline;
+        display: block;
         text-align: center;
-        width: 150px;
+        width: 180px;
         font-size: 22px;
         padding: 14px 0 0 0;
     }

@@ -97,7 +97,7 @@ nav {
 
 .img-gradient h4 {
     margin: 0 20px;
-    font-size: 20px;
+    font-size: 1.3em;
 }
 
 .img-gradient p {
@@ -262,7 +262,6 @@ nav {
 }
 
 .img-a {
-    /* height: 27vh; */
     opacity: 1;
 }
 
@@ -276,6 +275,18 @@ nav {
 
 .true-logo {
   display: none;
+}
+
+.tnw-event-logo {
+    display: none;
+}
+
+.countdown {
+    display: none;
+}
+
+.button {
+    display: none;
 }
 
 @media (min-width: 767px) {
@@ -347,7 +358,7 @@ nav {
     }
 
     .half {
-        width: 70%;
+        width: 80%;
     }
 
     .two-col {
@@ -427,6 +438,25 @@ nav {
 @media (min-width: 1024px) {
     .navbar-logo {
       display: none;
+    }
+
+    .right-nav {
+        display: flex;
+        width: 500px;
+        height: 49px;
+    }
+
+    .tnw-event-logo {
+        width: 100px;
+        background-color: orangered;
+    }
+
+    .countdown {
+        width: 100px;
+    }
+
+    .button {
+        width: 100px;
     }
 
     .top-central-p ul {

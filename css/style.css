@@ -65,6 +65,16 @@ nav {
     height: 49px;
 }
 
+.yellow-bar {
+    cursor: pointer;
+    padding: 10px 0 0 0;
+    text-align: center;
+    font-size: 13px;
+    background-color: #ffdd34;
+    height: 50px;
+    width: 100%;
+}
+
 /* Body
    First row of pictures */
 .img-gradient {
@@ -157,11 +167,14 @@ nav {
     font-size: 13px;
 }
 
-.img-3 img {
+.img-3 {
     margin: 10px 0 0 10px;
     position: absolute;
+    background-image: url(https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1217803075978702848%2FIcA03RWQ.jpg&signature=76a55ce37ba360655a056fe2ca1bc8b0);
     width: 60px;
     height: 60px;
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
 }
 
 .img-4 {
@@ -225,17 +238,36 @@ nav {
     margin: 0 10px;
 }
 
-.price span {
-  margin-left: 20px;
-  color: black;
-}
+@media (max-width: 2000px) {
+    .top-central-wrap {
+        background-color: #000;
+        width: 100%;
+        height: 32px;
+    }
 
-.title-2 {
-  align-items: baseline;
+    .top-central-wrap ul {
+        list-style-type: none;
+        padding: 8px 0 0 0;
+        margin: 0;
+    }
+
+    .top-central-wrap li {
+        display: inline;
+        margin: 0 5px 0 5px;
+    }
+
+    .top-central {
+
+    }
+
 }
 
 @media (max-width: 767px) {
     .navbar-logo {}
+
+    .top-central-wrap {
+        display: none;
+    }
 
     .right-nav {
         width: 100px;
@@ -253,16 +285,6 @@ nav {
         width: 49px;
     }
 
-    .yellow-bar {
-        cursor: pointer;
-        padding: 10px 0 0 0;
-        text-align: center;
-        font-size: 13px;
-        background-color: #ffdd34;
-        height: 50px;
-        width: 100%;
-    }
-
     .img-a {
         height: 27vh;
         opacity: 1;
@@ -276,6 +298,7 @@ nav {
 /* Text style */
 h2 {
     font-family: Avalon, sans-serif;
+    padding-top: 40px;
     font-size: 28px;
 }
 
@@ -372,8 +395,4 @@ a {
 
 .text_img2 h4 a:hover {
     text-decoration: underline;
-}
-
-.aaa {
-  background-color: red;
 }

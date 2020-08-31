@@ -637,25 +637,44 @@ a {
 }
 
 /* Footer icons */
+footer {
+    width: 100%;
+    background-color: #131313;
+    height: 162px;
+}
+
 .social a {
     display: inline-block;
-    background: #eee;
-    width: 20px;
-    height: 20px;
+    background: #333;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     text-align: center;
-    padding: 2px 2px 2px 2px;
-    margin: 0 3px;
-    font-size: 0.7em;
-  color: #444;
+    padding: 0;
+    margin: 0 8px 0 8px;
+    color: #fff;
+  }
+
+  .footer-links {
+      list-style: none;
+      padding: 0;
+      margin: 0 20px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .social i {
+      margin: 12px 0 0 0;
   }
 
   .social a:hover {
-  background: #fff;
-    border: 1px solid #aaa;
+    background: #131313;
+    border: 1px solid #333;
 
   }
 
   .social {
+      display: flex;
+      justify-content: center;
   text-align: right;
   }

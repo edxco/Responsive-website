@@ -1,33 +1,31 @@
-@media (min-width:1024px) {
-    @font-face {
-        font-family: ARS Maquette;
-        font-style: normal;
-        font-weight: 400;
-        src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular.eot);
-        src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular.eot#iefix) format("embedded-opentype"), 
-        url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular.woff) format("woff"), 
-        url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular.ttf) format("truetype")
-    }
+@font-face {
+    font-family: ARS Maquette;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular.eot);
+    src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular.eot#iefix) format("embedded-opentype"), 
+    url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular.woff) format("woff"), 
+    url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular.ttf) format("truetype")
+}
 
-    @font-face {
-        font-family: ARS Maquette;
-        font-style: italic;
-        font-weight: 400;
-        src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular-italic.eot);
-        src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular-italic.eot#iefix) format("embedded-opentype"), 
-        url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular-italic.woff) format("woff"), 
-        url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular-italic.ttf) format("truetype")
-    }
+@font-face {
+    font-family: ARS Maquette;
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular-italic.eot);
+    src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular-italic.eot#iefix) format("embedded-opentype"), 
+    url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular-italic.woff) format("woff"), 
+    url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular-italic.ttf) format("truetype")
+}
 
-    @font-face {
-        font-family: ARS Maquette;
-        font-style: normal;
-        font-weight: 700;
-        src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-bold-alt.eot);
-        src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-bold-alt.eot#iefix) format("embedded-opentype"), 
-        url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-bold-alt.woff) format("woff"), 
-        url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-bold-alt.ttf) format("truetype")
-    }
+@font-face {
+    font-family: ARS Maquette;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-bold-alt.eot);
+    src: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-bold-alt.eot#iefix) format("embedded-opentype"), 
+    url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-bold-alt.woff) format("woff"), 
+    url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-bold-alt.ttf) format("truetype")
 }
 
 @font-face {

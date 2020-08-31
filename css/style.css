@@ -287,7 +287,7 @@ nav {
 
     .top-central-wrap ul {
         list-style-type: none;
-        padding: 8px 0 0 0;
+        padding: 9px 0 0 35px;
         margin: 0;
     }
 
@@ -295,6 +295,13 @@ nav {
         display: inline;
         margin: 0 5px 0 5px;
     }
+
+    .fa-bars,
+    .menu-img {
+        display: none;
+    }
+
+    
 
     .nav-767 {
       display: flex;
@@ -357,7 +364,8 @@ html .text_img2,
 }
 
 .money p,
-.text-sq {
+.white-nav
+,.text-sq {
     font-family: Shentox;
 }
 
@@ -384,7 +392,9 @@ h2 a {
     font-weight: 700;
 }
 
-.grey1 {
+.grey1,
+.top-central-wrap ul,
+.white-nav {
     color: #bdbdbc;
 }
 
@@ -413,6 +423,10 @@ a:hover,
 .fs-12,
 .sec-3 li {
     font-size: 13px;
+}
+
+.top-central-wrap ul {
+    font-size: 14px;
 }
 
 /* Hperlinks style */

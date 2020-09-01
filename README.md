@@ -8,7 +8,7 @@ This project consists of replicating the The Next Web website (https://thenextwe
 * Used a mobile first approach.
 * The page layout does not brake on smaller screens.
 
-![screenshot](https://github.com/edxco/Responsive-website/blob/responsive/screenshot.jpg)
+![screenshot](https://github.com/edxco/Responsive-website/blob/responsive/img/screenshot.jpg)
 
 Additional description about the project and its features.
 

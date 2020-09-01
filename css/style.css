@@ -290,6 +290,7 @@ nav {
 }
 
 @media (min-width: 767px) {
+        
     header nav {
         flex-direction: column;
     }
@@ -379,6 +380,10 @@ nav {
         display: flex;
     }
 
+    .space-between {
+        justify-content: space-between;
+    }
+
     .lastes_news {
         display: flex;
         flex-direction: column;
@@ -448,7 +453,13 @@ nav {
 
 }
 
+/* Fix the margin right problem when wrapping */
+.l1 {
+    margin-right: 0;
+}
+
 @media (min-width: 1024px) {
+        
     .navbar-logo {
         display: none;
     }
@@ -520,8 +531,17 @@ nav {
         flex: 10%;
     }
 
+    /* Fix the margin right problem when wrapping */
+    .l2 {
+        margin-right: 0;
+    }
+
     .two-col {
         flex: 30%;
+    }
+
+    .space-between {
+        justify-content: space-between;
     }
 
 }

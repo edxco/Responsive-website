@@ -494,8 +494,14 @@ nav {
 
   .true-logo {
     display: flex;
+  }
+
+  .true-logo img {
+    width: 200px;
     position: absolute;
-    z-index: 1;
+    z-index: 9;
+    height: 60px;
+    margin-left: 10px;
   }
 
   .lastes_news {

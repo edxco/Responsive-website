@@ -341,7 +341,7 @@ nav {
     }
 
     .navbar-logo img {
-        width: *;
+        width: auto;
         height: 82px;
     }
 
@@ -575,7 +575,10 @@ html .text_img2,
 .type-card p,
 .info-card,
 .card-text,
-.sec-3 li {
+.sec-3 li,
+.top-central ul,
+.right-ul-links ul,
+.yellow-bar {
     font-family: Arial, Helvetica, sans-serif;
 }
 

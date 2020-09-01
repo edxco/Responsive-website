@@ -312,7 +312,7 @@ nav {
   }
 
   .top-central-p ul {
-    padding-left: 190px;
+    padding-left: 155px;
   }
 
   .navbar-logo {
@@ -433,7 +433,6 @@ nav {
   }
 
   .right-ul-links ul {
-    display: none;
     padding-left: 0;
   }
 
@@ -686,7 +685,7 @@ html,
 }
 
 .top-central-wrap ul {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* Footer icons */

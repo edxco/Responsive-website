@@ -269,6 +269,15 @@ nav {
   display: none;
 }
 
+.card-none {
+  display: none;
+}
+
+.footer-2 p {
+  max-width: 300px;
+  text-align: center;
+}
+
 @media (min-width: 767px) {
   header nav {
     flex-direction: column;
@@ -549,13 +558,21 @@ nav {
     height: 100%;
   }
 
-  .li {
+  .l1 {
     margin-right: 10px;
   }
 
   .aaa {
     height: 350px;
     width: 1500px;
+  }
+
+  .card-none {
+    display: block;
+  }
+
+  .footer-2 p {
+    max-width: 100%;
   }
 }
 
@@ -698,7 +715,7 @@ html,
 .footer-2 {
   width: 100%;
   background-color: #000;
-  padding: 35px 0 0 0;
+  padding: 5px 0 30px 0;
   height: 60px;
   display: flex;
   justify-content: center;

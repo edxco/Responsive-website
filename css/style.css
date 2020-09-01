@@ -333,6 +333,18 @@ nav {
     margin-right: 20px;
   }
 
+  .yellow-bar {
+    cursor: pointer;
+    height: 24px;
+    padding: 10px 0 0 0;
+    text-align: left;
+  }
+
+  .yellow-bar p {
+      margin: 0;
+      padding-left: 15px;
+  }
+
   .medium {
     display: flex;
   }
@@ -421,6 +433,7 @@ nav {
   }
 
   .right-ul-links ul {
+    display: none;
     padding-left: 0;
   }
 
@@ -463,6 +476,10 @@ nav {
     width: 180px;
     font-size: 22px;
     padding: 14px 0 0 0;
+  }
+
+  .right-ul-links ul {
+    display: inline-block;
   }
 
   .button {
